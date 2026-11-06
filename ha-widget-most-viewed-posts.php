@@ -37,7 +37,7 @@ function ha_widget_most_viewed_posts_get_updater() {
     require_once $puc_file;
 
     $update_checker = \YahnisElsts\PluginUpdateChecker\v5\PucFactory::buildUpdateChecker(
-        'https://github.com/mystryx1337/ha-widget-most-viewed-posts/',
+        'https://github.com/alexhaio/ha-widget-most-viewed-posts/',
         __FILE__,
         'ha-widget-most-viewed-posts'
     );
